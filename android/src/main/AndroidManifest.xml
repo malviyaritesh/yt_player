@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.owliverse.yt_player">
+
+    <application>
+        <activity android:name=".YtPlayerViewActivity"
+            android:theme="@style/BlackNoBarsTheme"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".YtPlayerWebViewActivity"
+            android:theme="@style/BlackNoBarsTheme"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+    </application>
+
+</manifest>

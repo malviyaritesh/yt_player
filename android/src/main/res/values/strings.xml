@@ -1,0 +1,3 @@
+<resources>
+    <string name="error_player">There was an error initializing the player (%1$s)</string>
+</resources>
