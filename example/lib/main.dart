@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: RaisedButton(
-            onPressed: () => YtPlayer.createIntentAndStartYouTube(
+            onPressed: () => YtPlayer.playYouTubeVideo(
               apiKey: YOUTUBE_API_KEY,
               videoId: 'S0Q4gqBUs7c',
               autoPlay: true,

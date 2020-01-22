@@ -52,7 +52,7 @@ public class YtPlayerPlugin implements FlutterPlugin, MethodCallHandler {
 
     @Override
     public void onMethodCall(@NonNull MethodCall call, @NonNull Result result) {
-        if (call.method.equals("createIntentAndStartYouTube")) {
+        if (call.method.equals("playYouTubeVideo")) {
             result.success(createIntentAndStartYouTube(call));
         } else {
             result.notImplemented();

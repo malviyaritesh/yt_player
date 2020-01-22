@@ -7,12 +7,12 @@ class YtPlayer {
   static const MethodChannel _channel =
       const MethodChannel('com.owliverse/yt_player');
 
-  static Future<bool> createIntentAndStartYouTube({
+  static Future<bool> playYouTubeVideo({
     @required String apiKey,
     @required String videoId,
     bool autoPlay = false,
   }) {
-    return _channel.invokeMethod('createIntentAndStartYouTube', {
+    return _channel.invokeMethod('playYouTubeVideo', {
       'videoId': videoId,
       'apiKey': apiKey,
       'autoPlay': autoPlay,
