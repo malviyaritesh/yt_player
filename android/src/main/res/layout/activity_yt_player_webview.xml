@@ -12,5 +12,6 @@
         android:layout_gravity="center_vertical"
         android:layout_weight="1"
         app:showFullScreenButton="false"
-        app:showYouTubeButton="false" />
+        app:showYouTubeButton="false"
+        app:useWebUi="true" />
 </LinearLayout>
